@@ -1,12 +1,14 @@
 package com.project.music.controller;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PatchMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -19,33 +21,39 @@ import com.project.music.model.Track;
 import com.project.music.service.TrackService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/music")
 public class TrackController {
     @Autowired
-    TrackService musicService;
+    TrackService trackService;
 
-    @PostMapping("/music/track")
+    @PostMapping("/track")
     public Track createTrack(@RequestBody Track track) {
-        return musicService.createTrack(track);
+        return trackService.createTrack(track);
     }
 
-    @GetMapping("/music/tracks")
+    @GetMapping("/tracks")
     public List<Track> readTracks() {
-        return musicService.getTrack();
+        return trackService.getTrack();
     }
 
-    @GetMapping("/music/track/{trackId}")
-    public List<Track> readTrack() {
-        return musicService.getTrack();
+    @GetMapping("/track/{trackId}")
+    public Optional<Track> getTrack(Long trackId) {
+        return trackService.getTrack(trackId);
     }
 
-    @PutMapping("/music/track/{trackId}")
+    @PutMapping("/track/{trackId}")
     public Track updateTrack(@PathVariable(value = "trackId") Long id, @RequestBody Track trackDetails) {
-        return musicService.updateTrack(id, trackDetails);
+        return trackService.updateTrack(id, trackDetails);
     }
 
-    @DeleteMapping("/music/track/{trackId}")
+    @PatchMapping("/track/{trackId}")
+    public Track replaceTrack(@PathVariable(value = "trackId") Long id,
+            @PathVariable(value = "newSongName") String songName) {
+        return trackService.updateTrackTitle(id, songName);
+    }
+
+    @DeleteMapping("/track/{trackId}")
     public void deleteTrack(@PathVariable(value = "trackId") Long id) {
-        musicService.deleteTrack(id);
+        trackService.deleteTrack(id);
     }
 }
