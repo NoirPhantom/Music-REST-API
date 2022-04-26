@@ -134,3 +134,173 @@
 2022-04-26 12:27:37.522  INFO 15016 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-04-26 12:27:37.525  INFO 15016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-04-26 12:27:37.534  INFO 15016 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 12:29:41.927  INFO 6152 --- [main] com.project.music.MusicApplicationTests  : Starting MusicApplicationTests using Java 17.0.2 on DESKTOP-8DTJ75I with PID 6152 (started by NoirPhantom in E:\music)
+2022-04-26 12:29:41.928  INFO 6152 --- [main] com.project.music.MusicApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 12:29:42.318  INFO 6152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 12:29:42.357  INFO 6152 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2022-04-26 12:29:42.847  INFO 6152 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 12:29:42.885  INFO 6152 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-26 12:29:42.991  INFO 6152 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 12:29:43.100  INFO 6152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 12:29:43.332  INFO 6152 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 12:29:43.342  INFO 6152 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 12:29:43.779  INFO 6152 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 12:29:43.784  INFO 6152 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:29:44.278  WARN 6152 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 12:29:45.288  INFO 6152 --- [main] com.project.music.MusicApplicationTests  : Started MusicApplicationTests in 3.596 seconds (JVM running for 4.216)
+2022-04-26 12:29:45.660  INFO 6152 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:29:45.663  INFO 6152 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 12:29:45.670  INFO 6152 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 12:29:53.394  INFO 14716 --- [main] com.project.music.MusicApplicationTests  : Starting MusicApplicationTests using Java 17.0.2 on DESKTOP-8DTJ75I with PID 14716 (started by NoirPhantom in E:\music)
+2022-04-26 12:29:53.395  INFO 14716 --- [main] com.project.music.MusicApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 12:29:53.793  INFO 14716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 12:29:53.829  INFO 14716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-04-26 12:29:54.274  INFO 14716 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 12:29:54.321  INFO 14716 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-26 12:29:54.433  INFO 14716 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 12:29:54.540  INFO 14716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 12:29:54.777  INFO 14716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 12:29:54.787  INFO 14716 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 12:29:55.318  INFO 14716 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 12:29:55.323  INFO 14716 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:29:55.799  WARN 14716 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 12:29:56.836  INFO 14716 --- [main] com.project.music.MusicApplicationTests  : Started MusicApplicationTests in 3.716 seconds (JVM running for 4.341)
+2022-04-26 12:29:57.067  INFO 14716 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:29:57.069  INFO 14716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 12:29:57.075  INFO 14716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 14:26:46.421  INFO 14196 --- [main] com.project.music.MusicApplicationTests  : Starting MusicApplicationTests using Java 17.0.2 on DESKTOP-8DTJ75I with PID 14196 (started by NoirPhantom in E:\music)
+2022-04-26 14:26:46.422  INFO 14196 --- [main] com.project.music.MusicApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 14:26:46.820  INFO 14196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 14:26:46.853  INFO 14196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2022-04-26 14:26:47.358  INFO 14196 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 14:26:47.400  INFO 14196 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-26 14:26:47.514  INFO 14196 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 14:26:47.622  INFO 14196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 14:26:47.861  INFO 14196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 14:26:47.870  INFO 14196 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 14:26:48.458  INFO 14196 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 14:26:48.463  INFO 14196 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:26:49.013  WARN 14196 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 14:26:50.181  INFO 14196 --- [main] com.project.music.MusicApplicationTests  : Started MusicApplicationTests in 3.993 seconds (JVM running for 4.602)
+2022-04-26 14:26:50.619  INFO 14196 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:26:50.621  INFO 14196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 14:26:50.630  INFO 14196 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 14:28:05.101  INFO 20576 --- [main] com.project.music.MusicApplicationTests  : Starting MusicApplicationTests using Java 17.0.2 on DESKTOP-8DTJ75I with PID 20576 (started by NoirPhantom in E:\music)
+2022-04-26 14:28:05.102  INFO 20576 --- [main] com.project.music.MusicApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 14:28:05.505  INFO 20576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 14:28:05.541  INFO 20576 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2022-04-26 14:28:05.981  INFO 20576 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 14:28:06.018  INFO 20576 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-26 14:28:06.119  INFO 20576 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 14:28:06.226  INFO 20576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 14:28:06.453  INFO 20576 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 14:28:06.462  INFO 20576 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 14:28:06.902  INFO 20576 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 14:28:06.906  INFO 20576 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:28:07.373  WARN 20576 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 14:28:08.461  INFO 20576 --- [main] com.project.music.MusicApplicationTests  : Started MusicApplicationTests in 3.582 seconds (JVM running for 4.194)
+2022-04-26 14:28:08.748  INFO 20576 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:28:08.751  INFO 20576 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 14:28:08.762  INFO 20576 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 14:28:38.323  INFO 21556 --- [main] com.project.music.MusicApplicationTests  : Starting MusicApplicationTests using Java 17.0.2 on DESKTOP-8DTJ75I with PID 21556 (started by NoirPhantom in E:\music)
+2022-04-26 14:28:38.324  INFO 21556 --- [main] com.project.music.MusicApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 14:28:38.725  INFO 21556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 14:28:38.762  INFO 21556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-04-26 14:28:39.246  INFO 21556 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 14:28:39.283  INFO 21556 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-26 14:28:39.390  INFO 21556 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 14:28:39.498  INFO 21556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 14:28:39.738  INFO 21556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 14:28:39.748  INFO 21556 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 14:28:40.258  INFO 21556 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 14:28:40.264  INFO 21556 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:28:40.796  WARN 21556 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 14:28:41.847  INFO 21556 --- [main] com.project.music.MusicApplicationTests  : Started MusicApplicationTests in 3.749 seconds (JVM running for 4.362)
+2022-04-26 14:28:42.190  INFO 21556 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:28:42.194  INFO 21556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 14:28:42.201  INFO 21556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 14:29:02.634  INFO 11552 --- [main] com.project.music.MusicApplicationTests  : Starting MusicApplicationTests using Java 17.0.2 on DESKTOP-8DTJ75I with PID 11552 (started by NoirPhantom in E:\music)
+2022-04-26 14:29:02.635  INFO 11552 --- [main] com.project.music.MusicApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 14:29:03.090  INFO 11552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 14:29:03.130  INFO 11552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-04-26 14:29:03.604  INFO 11552 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 14:29:03.642  INFO 11552 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-26 14:29:03.747  INFO 11552 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 14:29:03.867  INFO 11552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 14:29:04.097  INFO 11552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 14:29:04.107  INFO 11552 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 14:29:04.605  INFO 11552 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 14:29:04.611  INFO 11552 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:29:05.174  WARN 11552 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 14:29:06.273  INFO 11552 --- [main] com.project.music.MusicApplicationTests  : Started MusicApplicationTests in 3.874 seconds (JVM running for 4.582)
+2022-04-26 14:29:06.490  INFO 11552 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:29:06.491  INFO 11552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 14:29:06.498  INFO 11552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 14:29:37.786  INFO 25104 --- [main] com.project.music.MusicApplicationTests  : Starting MusicApplicationTests using Java 17.0.2 on DESKTOP-8DTJ75I with PID 25104 (started by NoirPhantom in E:\music)
+2022-04-26 14:29:37.788  INFO 25104 --- [main] com.project.music.MusicApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 14:29:38.203  INFO 25104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 14:29:38.239  INFO 25104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-04-26 14:29:38.725  INFO 25104 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 14:29:38.765  INFO 25104 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-26 14:29:38.880  INFO 25104 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 14:29:38.990  INFO 25104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 14:29:39.230  INFO 25104 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 14:29:39.239  INFO 25104 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 14:29:39.727  INFO 25104 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 14:29:39.732  INFO 25104 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:29:40.244  WARN 25104 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 14:29:41.293  INFO 25104 --- [main] com.project.music.MusicApplicationTests  : Started MusicApplicationTests in 3.749 seconds (JVM running for 4.398)
+2022-04-26 14:29:41.660  INFO 25104 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:29:41.661  INFO 25104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 14:29:41.669  INFO 25104 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 14:29:55.182  INFO 25248 --- [main] com.project.music.MusicApplicationTests  : Starting MusicApplicationTests using Java 17.0.2 on DESKTOP-8DTJ75I with PID 25248 (started by NoirPhantom in E:\music)
+2022-04-26 14:29:55.183  INFO 25248 --- [main] com.project.music.MusicApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 14:29:55.673  INFO 25248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 14:29:55.715  INFO 25248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-04-26 14:29:56.172  INFO 25248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 14:29:56.216  INFO 25248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-26 14:29:56.328  INFO 25248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 14:29:56.442  INFO 25248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 14:29:56.682  INFO 25248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 14:29:56.693  INFO 25248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 14:29:57.143  INFO 25248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 14:29:57.148  INFO 25248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:29:57.687  WARN 25248 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 14:29:58.873  INFO 25248 --- [main] com.project.music.MusicApplicationTests  : Started MusicApplicationTests in 3.936 seconds (JVM running for 4.577)
+2022-04-26 14:29:59.240  INFO 25248 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:29:59.247  INFO 25248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 14:29:59.256  INFO 25248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 14:56:38.849  INFO 17816 --- [main] com.project.music.MusicApplicationTests  : Starting MusicApplicationTests using Java 17.0.2 on DESKTOP-8DTJ75I with PID 17816 (started by NoirPhantom in E:\music)
+2022-04-26 14:56:38.850  INFO 17816 --- [main] com.project.music.MusicApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 14:56:39.323  INFO 17816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 14:56:39.374  INFO 17816 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2022-04-26 14:56:40.000  INFO 17816 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 14:56:40.201  INFO 17816 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-26 14:56:40.314  INFO 17816 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 14:56:40.458  INFO 17816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 14:56:40.767  INFO 17816 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 14:56:40.778  INFO 17816 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 14:56:41.351  INFO 17816 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 14:56:41.358  INFO 17816 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:56:42.079  WARN 17816 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 14:56:43.676  INFO 17816 --- [main] com.project.music.MusicApplicationTests  : Started MusicApplicationTests in 5.076 seconds (JVM running for 5.74)
+2022-04-26 14:56:44.212  INFO 17816 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:56:44.215  INFO 17816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 14:56:44.227  INFO 17816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 14:57:34.088  INFO 16720 --- [main] com.project.music.MusicApplicationTests  : Starting MusicApplicationTests using Java 17.0.2 on DESKTOP-8DTJ75I with PID 16720 (started by NoirPhantom in E:\music)
+2022-04-26 14:57:34.090  INFO 16720 --- [main] com.project.music.MusicApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 14:57:34.623  INFO 16720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 14:57:34.673  INFO 16720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2022-04-26 14:57:35.294  INFO 16720 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 14:57:35.342  INFO 16720 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-04-26 14:57:35.468  INFO 16720 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 14:57:35.599  INFO 16720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 14:57:35.899  INFO 16720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 14:57:35.909  INFO 16720 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-04-26 14:57:36.506  INFO 16720 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 14:57:36.511  INFO 16720 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:57:37.235  WARN 16720 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 14:57:38.653  INFO 16720 --- [main] com.project.music.MusicApplicationTests  : Started MusicApplicationTests in 4.852 seconds (JVM running for 5.624)
+2022-04-26 14:57:39.200  INFO 16720 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 14:57:39.201  INFO 16720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 14:57:39.210  INFO 16720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
